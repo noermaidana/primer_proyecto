@@ -1,0 +1,43 @@
+
+   header{
+    background-color: #fe7ec9;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    }
+
+   section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */
+    }
+
+   img {
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #f936c530; /* Contorno de 3px con un color alrededor de la img.*/
+    border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+    }
+
+   footer {
+    background-color: #fe7ec9; /* Color de fondo del footer */
+    color: #000000;
+    padding: 20px 0; 
+    }
+
+   .footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+    }
+
+   .imagen-miniatura{
+    width: 40px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    }
+
+   .contenedor{
+    text-align: center;
+
+    }
