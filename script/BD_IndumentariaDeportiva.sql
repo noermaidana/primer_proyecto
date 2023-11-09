@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-11-2023 a las 04:26:22
+-- Tiempo de generación: 09-11-2023 a las 02:34:43
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 7.4.29
 
@@ -42,8 +42,7 @@ CREATE TABLE `consultas` (
 INSERT INTO `consultas` (`id_consulta`, `nombre`, `email`, `motivo`, `descripcion`) VALUES
 (1, 'Juana Nuñez', 'juana_n@gmail.com', 'Compra mayorista', 'Buenas, quisiera saber si realizan ventas a precio mayorista'),
 (2, 'Pablo Perez', 'p.perez@gmail.com', 'Zapatillas originales', 'Buenas, quisiera saber que marcas originales hay en venta'),
-(3, 'Ariela Perez', 'ariela_perez@gmail.com', 'Tops Nike', 'Me gustaria saber los precios de los tops marca \"Nike\"'),
-(5, 'Ariela', 'ariela_perez@gmail.com', 'Tops Nike', 'Me gustaria saber los precios de los tops marca \"Nike\"');
+(3, 'Ariela Perez', 'ariela_perez@gmail.com', 'Tops Nike', 'Me gustaria saber los precios de los tops marca \"Nike\"');
 
 -- --------------------------------------------------------
 
@@ -82,8 +81,10 @@ CREATE TABLE `productos` (
 --
 
 INSERT INTO `productos` (`id_producto`, `nombre`, `precio`, `stock`) VALUES
-(1, 'Zapatilla', 15000, 2),
-(2, 'Calza', 25000, 3);
+(1, 'Zapatillas Puma', 40000, 10),
+(2, 'Calza Stricker', 9000, 4),
+(3, 'Medias Topper', 1200, 5),
+(4, 'Vincha Adidas', 1000, 4);
 
 -- --------------------------------------------------------
 
@@ -159,7 +160,7 @@ ALTER TABLE `perfiles`
 -- AUTO_INCREMENT de la tabla `productos`
 --
 ALTER TABLE `productos`
-  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_producto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
